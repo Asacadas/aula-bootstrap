@@ -1,0 +1,73 @@
+*{
+    padding: none;
+    text-decoration: none;
+}
+
+/* Colocando um efeito hover da esquerda pra direita pego de "devinbiuld" um perfil do insta */
+a {
+    text-decoration: none;
+    color: #101823;
+}
+
+img{
+    padding-right: 20px;
+}
+
+h3 {
+    background-image: linear-gradient(#ff4654, #ff4654);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 500ms;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.navbar{
+    background-color: #ff4654;
+}
+
+#quemsomos{
+    background-color: #101823;
+    color: white;
+}
+
+.margin{
+    padding: 20px;
+}
+
+.lorem{
+   text-align: justify;
+   padding: 30px;
+   padding-top: 15px;
+}
+
+#parceiros {
+   padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#servicos {
+    padding-bottom: 50px;
+    text-align: justify;
+    ;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    padding-bottom: 5px;
+}
+
+.col-lg-6 lorem{
+    padding-right: 50px;
+}
